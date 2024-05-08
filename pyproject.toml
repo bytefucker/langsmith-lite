@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "langsmith-lite"
+version = "0.1.0"
+description = ""
+authors = ["bytefucker <yihongzhi66@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+uvicorn = { extras = ["standard"], version = "^0.29.0" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple"
+priority = "default"
