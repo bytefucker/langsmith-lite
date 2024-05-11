@@ -14,8 +14,8 @@
                 "127.0.0.1",
                 "--port",
                 "8000",
-                "--no-access-log",
-                "langsmith-lite.main:app"
+                "--reload",
+                "langsmith_lite.main:app"
             ]
         }
     ]
